@@ -26,4 +26,11 @@ CREATE TABLE estudiantes(
 	INSERT INTO estudiantes VALUES (14, 'Carlos', 'Lopez', 22, 'Programacion', '2026-05-05');
 	INSERT INTO estudiantes VALUES (15, 'Andrea', 'Salazar', 26, 'Base de Datos', '2026-05-11');
 
-	SELECT * FROM clientes;
+	SELECT * FROM estudiantes;
+	SELECT nombres, curso FROM estudiantes;
+	SELECT * FROM estudiantes WHERE edad > 18;
+	SELECT * FROM estudiantes WHERE edad > 18 AND edad < 25;
+	SELECT * FROM estudiantes WHERE curso = 'Base de Datos';
+	SELECT * FROM estudiantes WHERE fecha_registro > '2026-03-01';
+	SELECT * FROM estudiantes WHERE fecha_registro > '2026-01-01' AND fecha_registro < '2026-04-30';
+	
