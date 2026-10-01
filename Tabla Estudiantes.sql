@@ -33,4 +33,10 @@ CREATE TABLE estudiantes(
 	SELECT * FROM estudiantes WHERE curso = 'Base de Datos';
 	SELECT * FROM estudiantes WHERE fecha_registro > '2026-03-01';
 	SELECT * FROM estudiantes WHERE fecha_registro > '2026-01-01' AND fecha_registro < '2026-04-30';
-	
+
+	UPDATE estudiantes SET curso = 'Inteligencia Artificial' WHERE id_estudiante = 1;
+	UPDATE estudiantes SET edad = 27 WHERE id_estudiante = 2;
+	UPDATE estudiantes SET fecha_registro = '2026-04-10' WHERE id_estudiante = 3;
+	UPDATE estudiantes SET edad = 18, curso = 'Redes' WHERE id_estudiante = 4;
+	UPDATE estudiantes SET nombres = 'Mateo' WHERE id_estudiante = 5;
+	UPDATE estudiantes SET apellidos = 'Perez' WHERE id_estudiante = 6;
