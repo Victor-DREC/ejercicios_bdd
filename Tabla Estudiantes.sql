@@ -40,3 +40,9 @@ CREATE TABLE estudiantes(
 	UPDATE estudiantes SET edad = 18, curso = 'Redes' WHERE id_estudiante = 4;
 	UPDATE estudiantes SET nombres = 'Mateo' WHERE id_estudiante = 5;
 	UPDATE estudiantes SET apellidos = 'Perez' WHERE id_estudiante = 6;
+
+	DELETE FROM estudiantes WHERE id_estudiante = 7;
+	DELETE FROM estudiantes WHERE curso = 'Redes';
+	DELETE FROM estudiantes WHERE edad = 27;
+	DELETE FROM estudiantes WHERE nombres = 'Mateo';
+	DELETE FROM estudiantes WHERE apellidos = 'Perez';
