@@ -66,4 +66,8 @@ CREATE TABLE estudiantes(
 	INSERT INTO estudiantes VALUES (14, 'Carlos', 'Lopez', 22, 'Programacion', '2026-05-05', 'carlos.l2@gmail.com');
 	INSERT INTO estudiantes VALUES (15, 'Andrea', 'Salazar', 26, 'Base de Datos', '2026-05-11', 'andrea@gmail.com');
 
-	
+	SELECT * FROM estudiantes WHERE fecha_registro > '2026-02-01';
+	SELECT * FROM estudiantes WHERE fecha_registro < '2026-05-01';
+	SELECT * FROM estudiantes WHERE fecha_registro > '2026-02-01' AND fecha_registro < '2026-05-01';
+	SELECT * FROM estudiantes WHERE fecha_registro = '2026-03-15';
+	SELECT * FROM estudiantes WHERE fecha_registro > '2026-01-01' AND curso = 'Programacion';
