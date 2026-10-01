@@ -46,3 +46,7 @@ CREATE TABLE estudiantes(
 	DELETE FROM estudiantes WHERE edad = 27;
 	DELETE FROM estudiantes WHERE nombres = 'Mateo';
 	DELETE FROM estudiantes WHERE apellidos = 'Perez';
+
+	ALTER TABLE estudiantes ADD COLUMN correo VARCHAR(100);
+	
+	
