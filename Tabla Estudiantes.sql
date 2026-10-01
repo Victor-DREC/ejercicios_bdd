@@ -48,5 +48,22 @@ CREATE TABLE estudiantes(
 	DELETE FROM estudiantes WHERE apellidos = 'Perez';
 
 	ALTER TABLE estudiantes ADD COLUMN correo VARCHAR(100);
-	
+
+	TRUNCATE TABLE estudiantes; -- O limpia la tabla para volver a insertar
+	INSERT INTO estudiantes VALUES (1, 'Juan', 'Perez', 20, 'Programacion', '2026-01-10', 'juan@gmail.com');
+	INSERT INTO estudiantes VALUES (2, 'Maria', 'Gomez', 18, 'Base de Datos', '2026-01-15', 'maria@gmail.com');
+	INSERT INTO estudiantes VALUES (3, 'Carlos', 'Lopez', 22, 'Redes', '2026-02-01', 'carlos@gmail.com');
+	INSERT INTO estudiantes VALUES (4, 'Ana', 'Torres', 25, 'Base de Datos', '2026-02-18', 'ana@gmail.com');
+	INSERT INTO estudiantes VALUES (5, 'Luis', 'Ramirez', 19, 'Programacion', '2026-03-01', 'luis@gmail.com');
+	INSERT INTO estudiantes VALUES (6, 'Sofia', 'Mendoza', 28, 'Sistemas Operativos', '2026-03-15', 'sofia@gmail.com');
+	INSERT INTO estudiantes VALUES (7, 'Juan', 'Perez', 20, 'Base de Datos', '2026-03-20', 'juan.perez2@gmail.com');
+	INSERT INTO estudiantes VALUES (8, 'Diego', 'Castro', 18, 'Desarrollo Web', '2026-03-25', 'diego@gmail.com');
+	INSERT INTO estudiantes VALUES (9, 'Elena', 'Vargas', 24, 'Programacion', '2026-04-02', 'elena@gmail.com');
+	INSERT INTO estudiantes VALUES (10, 'Gabriel', 'Morales', 30, 'Base de Datos', '2026-04-10', 'gabriel@gmail.com');
+	INSERT INTO estudiantes VALUES (11, 'Valeria', 'Rios', 21, 'Redes', '2026-04-15', 'valeria@gmail.com');
+	INSERT INTO estudiantes VALUES (12, 'Mateo', 'Suarez', 19, 'Desarrollo Web', '2026-04-28', 'mateo@gmail.com');
+	INSERT INTO estudiantes VALUES (13, 'Camila', 'Paredes', 23, 'Inteligencia Artificial', '2026-05-01', 'camila@gmail.com');
+	INSERT INTO estudiantes VALUES (14, 'Carlos', 'Lopez', 22, 'Programacion', '2026-05-05', 'carlos.l2@gmail.com');
+	INSERT INTO estudiantes VALUES (15, 'Andrea', 'Salazar', 26, 'Base de Datos', '2026-05-11', 'andrea@gmail.com');
+
 	
